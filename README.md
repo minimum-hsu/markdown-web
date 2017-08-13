@@ -1,6 +1,6 @@
 # Markdown Website
 
-This project is Within Docker.
+This project is within Docker.
 
 ## Build Docker image
 
