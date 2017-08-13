@@ -1,0 +1,10 @@
+# docker
+docker
+docker-compose.yml
+mount.yml
+
+# git
+.git
+
+# python
+*.pyc
