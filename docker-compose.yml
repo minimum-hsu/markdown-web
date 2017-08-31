@@ -4,7 +4,7 @@ services:
     portal:
         build:
             context: .
-            dockerfile: docker/Dockerfile
+            dockerfile: Dockerfile
         image: minimum/markdown-web
         logging:
             driver: json-file

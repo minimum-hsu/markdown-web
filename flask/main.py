@@ -30,7 +30,9 @@ def markdown2html(mdfile, title = None):
         tab_length = 2,
         lazy_ol = False,
         extensions = [
-            'markdown.extensions.tables'
+            'markdown.extensions.extra',
+            'markdown.extensions.smarty',
+            'markdown.extensions.toc'
         ]
     )
     title = title or 'Markdown'

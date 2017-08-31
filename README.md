@@ -15,7 +15,7 @@ docker-compose -f docker-compose.yml build
 ### Build with docker command
 
 ```sh
-docker build -t minimum/markdown-web -f docker/Dockerfile .
+docker build -t minimum/markdown-web -f Dockerfile .
 ```
 
 ## Run
